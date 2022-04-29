@@ -3,8 +3,14 @@
   <%= link_to "MMO", '/'%>
   </div>
   <div class='menu'>
-    <%= link_to "新規作成", "#", class:"credit-list" %>
+    <%= link_to "新規作成", new_credit_card_path, class:"credit-list" %>
   </div>
 </header>
-
+<div>
+  <ul class='credits'>
+    <% @credit_cards.each do |credit_card|%>
+      <li><%= credit_card.card_name %>
+    <% end %>
+  </ul>
+</div>
 <%= render "shared/footer" %>

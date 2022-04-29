@@ -1,0 +1,18 @@
+<%= render "shared/header" %>
+<div class="credit-create">
+  <h2 class="credit-create-title">情報を入力</h2>
+  <%= form_with model:@credit_card, local: true do |f| %>
+    <div class="card-name-form">
+      <div class="card-name">
+        クレジットカード会社名
+        <span class="indispensable">必須</span>
+      </div>
+      <%= f.text_area :card_name, class:"card-form", placeholder:"クレジット名" %>
+    </div>
+    <div class="create-btn-contents">
+      <%= f.submit "作成する" ,class:"create-btn" %>
+      <%=link_to 'もどる', root_path, class:"back-btn" %>
+    </div>
+  <% end %>
+</div>
+<%= render "shared/footer" %>
