@@ -1,0 +1,42 @@
+.main {
+  background-color: grey;
+  width: 100vw;
+  margin: 0;
+}
+
+.top {
+  height: 75vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.login-left {
+  background-color: blue;
+  height: 75vh;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up-light {
+  background-color: green;
+  height: 75vh;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.login, .sign-up {
+  color: blueviolet;
+  font-size: 100px;
+  text-decoration: none;
+}
+
+.top-page-footer {
+height: 10vh;
+background-color: black;
+}

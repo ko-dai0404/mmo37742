@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+*{
+  margin:0;
+  padding:0;
+  }
+  
+.top-page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  width: 100vw;
+  height: 15vh;
+}
+
+.logo {
+}
+
+.menu {
+
+}
+
+.menu-lists {
+  display: flex;
+  list-style: none;
+}
+
+.credit-list {
+}
+
+.bank-list {
+}
+
+.cost-list {
+}
+
+.credit-list, .bank-list, .cost-list {
+  font-size: 50px;
+  text-decoration: none;
+  margin: 0 50px;
+  color: blueviolet;
+}
