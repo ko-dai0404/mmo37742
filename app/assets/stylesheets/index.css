@@ -1,7 +1,11 @@
 .main {
   background-color: grey;
   width: 100vw;
+  height: 75vh;
   margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .top {
@@ -39,4 +43,24 @@
 .top-page-footer {
 height: 10vh;
 background-color: black;
+}
+
+.simple-calendar {
+  width: 80vw;
+}
+
+.calendar-heading {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+}
+
+.calendar-title {
+  margin: 0 20px;
+  color: blueviolet;
+}
+
+.last-month, .next-month {
+  text-decoration: none;
+  color: blueviolet;
 }
