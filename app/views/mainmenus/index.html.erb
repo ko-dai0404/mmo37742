@@ -1,18 +1,24 @@
-<%= render "shared/header" %>
-<div class='main'>
 <% if user_signed_in? %>
-  <%= month_calendar mainmenus: @events do |date| %>
-    <%= date.day %>
-  <% end %>
+  <%= render "shared/header" %>
+  <div class='main'>
+    <div calss='calendar'>
+    <%= month_calendar mainmenus: @events do |date| %>
+      <%= date.day %>
+    <% end %>
+    </div>
+    <div class="all-record">
+    10000
+    </div>
+ </div>
+  <%= render "shared/footer" %>
 <% else %>
-  <div class='top'>
+  <div class='login_signup'>
+  <%= image_tag 'lp2.jpg', class:"lp_image" %>
     <div class='login-left'>
-      <%= link_to 'log in', new_user_session_path, class: "login" %>
+      <%= link_to 'Log in ?', new_user_session_path, class: "login" %>
     </div>
     <div class='sign-up-light'>
-      <%= link_to 'Sign Up', new_user_registration_path, class: "sign-up" %>
+      <%= link_to 'Sign up ?', new_user_registration_path, class: "sign-up" %>
     </div>
   </div>
 <% end %>
-</div>
-<%= render "shared/footer" %>

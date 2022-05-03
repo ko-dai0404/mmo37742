@@ -1,15 +1,13 @@
-<header class='top-page-header'>
-  <div class='logo'>
-  <%= link_to "MMO", '/'%>
-  </div>
-  <div class='menu'>
+<%= render "shared/header" %>
+<header class='creditcard-page-header'>
+  <div class='creditcard-page-menu'>
     <%= link_to "新規作成", new_credit_card_path, class:"credit-list" %>
   </div>
 </header>
-<div>
+<div class="creditcards-list">
   <ul class='credits'>
     <% @credit_cards.each do |credit_card|%>
-      <li><%= credit_card.card_name %>
+      <li><%= credit_card.card_name %></li>
     <% end %>
   </ul>
 </div>

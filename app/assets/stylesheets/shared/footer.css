@@ -1,0 +1,17 @@
+.top-page-footer {
+  width: 100%;
+  height: 8vh;
+  background-color: #27384b;
+}
+
+.under {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.logout {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Oswald', sans-serif;
+}

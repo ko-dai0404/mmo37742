@@ -1,12 +1,13 @@
-<header class='top-page-header'>
+<header class='header'>
   <div class='logo'>
-  <%= link_to "MMO", '/'%>
+  <%= link_to "MMO", '/', class:"title"%><br>
+  <%= link_to "- money management online -", '/', class:"title2"%>
   </div>
-  <div class='menu'>
+  <div class="menu-lists-field">
     <ul class='menu-lists'>
-      <li><%= link_to "Credit", credit_cards_index_path, class:"credit-list" %></li>
-      <li><%= link_to "Bank", "#", class: "bank-list" %></li>
-      <li><%= link_to "Cost", "#", class: "cost-list" %></li>
+      <li><%= link_to "- Credit -", credit_cards_index_path, class:"credit-list" %></li>
+      <li><%= link_to "- Bank -", "#", class: "bank-list" %></li>
+      <li><%= link_to "- Cost -", "#", class: "cost-list" %></li>
     </ul>
   </div>
 </header>
