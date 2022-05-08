@@ -1,0 +1,211 @@
+<mxfile host="65bd71144e">
+    <diagram id="hVq6Kvx9WaAr6o8ad6bQ" name="ページ1">
+        <mxGraphModel dx="971" dy="696" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#4D4D4D" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="15" value="ログイン/サインアップ選択ページ" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=11;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;swimlaneFillColor=#B3B3B3;" parent="1" vertex="1">
+                    <mxGeometry x="20" y="11" width="173" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="- ログインページ遷移ボタン&#10;- サインアップページ遷移ボタン" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=11;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="15" vertex="1">
+                    <mxGeometry y="30" width="173" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="ログインページ" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=12;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;swimlaneFillColor=#B3B3B3;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="11" width="160" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="- email入力欄&#10;- password入力欄&#10;- 送信ボタン" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=11;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="19" vertex="1">
+                    <mxGeometry y="30" width="160" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="サインアップページ" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=11;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;swimlaneFillColor=#B3B3B3;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="163" width="160" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="- nickname入力欄&#10;- email入力欄&#10;- password入力欄&#10;- 送信ボタン" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="22" vertex="1">
+                    <mxGeometry y="30" width="160" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="トップページ" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=11;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;swimlaneFillColor=#B3B3B3;" parent="1" vertex="1">
+                    <mxGeometry x="406" y="11" width="160" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="- クレカ一覧ページ遷移ボタン&#10;- 銀行一覧ページ遷移ボタン&#10;- 固定費一覧ページ遷移ボタン&#10;- カレンダー表示機能&#10;- ログアウトボタン&#10;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=11;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="24" vertex="1">
+                    <mxGeometry y="30" width="160" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="クレジットカード一覧" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=11;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;swimlaneFillColor=#B3B3B3;" parent="1" vertex="1">
+                    <mxGeometry x="592" y="11" width="160" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="- クレカ詳細遷移ボタン&#10;- クレカ新規作成ボタン" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=11;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="26" vertex="1">
+                    <mxGeometry y="30" width="160" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="クレジットカード詳細" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=11;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;swimlaneFillColor=#B3B3B3;" parent="1" vertex="1">
+                    <mxGeometry x="778" y="11" width="160" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="- 内容新規投稿遷移ボタン&#10;- 内容投稿詳細遷移ボタン&#10;- 内容投稿編集遷移ボタン" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=11;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="28" vertex="1">
+                    <mxGeometry y="30" width="160" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="銀行一覧" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=11;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;swimlaneFillColor=#B3B3B3;" vertex="1" parent="1">
+                    <mxGeometry x="592" y="467" width="160" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="- 銀行詳細遷移ボタン&#10;- 銀行新規作成遷移ボタン&#10;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=11;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="33">
+                    <mxGeometry y="30" width="160" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="クレジットカード新規作成" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=11;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;swimlaneFillColor=#B3B3B3;" vertex="1" parent="1">
+                    <mxGeometry x="778" y="163" width="160" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="- クレカ名入力欄&#10;- 送信ボタン" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=11;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="35">
+                    <mxGeometry y="30" width="160" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;fontSize=11;strokeColor=#FF33FF;" vertex="1" parent="1">
+                    <mxGeometry x="193" y="76" width="27" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;fontSize=11;strokeColor=#FF33FF;" vertex="1" parent="1">
+                    <mxGeometry x="378" y="76" width="27" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;fontSize=11;strokeColor=#FF33FF;" vertex="1" parent="1">
+                    <mxGeometry x="565" y="76" width="27" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;fontSize=11;strokeColor=#FF33FF;" vertex="1" parent="1">
+                    <mxGeometry x="751" y="76" width="27" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;fontSize=11;strokeColor=#FF33FF;rotation=90;" vertex="1" parent="1">
+                    <mxGeometry x="133.5" y="151.5" width="146" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;fontSize=11;strokeColor=#FF33FF;" vertex="1" parent="1">
+                    <mxGeometry x="206" y="223" width="14" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;fontSize=11;strokeColor=#FF33FF;rotation=90;" vertex="1" parent="1">
+                    <mxGeometry x="195.24" y="461.52" width="766.53" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;fontSize=11;strokeColor=#FF33FF;" vertex="1" parent="1">
+                    <mxGeometry x="578" y="842.5" width="14" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;fontSize=11;strokeColor=#FF33FF;" vertex="1" parent="1">
+                    <mxGeometry x="578" y="535" width="14" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;fontSize=11;strokeColor=#FF33FF;" vertex="1" parent="1">
+                    <mxGeometry x="983" y="418" width="27" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="クレジット内容新規投稿" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=11;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;swimlaneFillColor=#B3B3B3;" vertex="1" parent="1">
+                    <mxGeometry x="965" y="11" width="160" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="- 使用額入力欄&#10;- 使用内容選択機能&#10;- 使用内容入力欄&#10;- 送信ボタン" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=11;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="61">
+                    <mxGeometry y="30" width="160" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;fontSize=11;strokeColor=#FF33FF;" vertex="1" parent="1">
+                    <mxGeometry x="938" y="76" width="27" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;fontSize=11;strokeColor=#FF33FF;rotation=90;" vertex="1" parent="1">
+                    <mxGeometry x="685.8" y="156.95" width="157.38" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;fontSize=11;strokeColor=#FF33FF;" vertex="1" parent="1">
+                    <mxGeometry x="764" y="233.13" width="14" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="クレジット内容投稿詳細" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=11;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;swimlaneFillColor=#B3B3B3;" vertex="1" parent="1">
+                    <mxGeometry x="965" y="163" width="160" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="- 投稿内容詳細一覧表示&#10;- 投稿内容編集遷移ボタン" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="66">
+                    <mxGeometry y="30" width="160" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="クレジット内容投稿編集" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=11;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;swimlaneFillColor=#B3B3B3;" vertex="1" parent="1">
+                    <mxGeometry x="965" y="315" width="160" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="- 使用額入力欄&#10;- 使用内容選択機能&#10;- 使用内容入力欄&#10;- 送信ボタン" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=11;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="68">
+                    <mxGeometry y="30" width="160" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;fontSize=11;strokeColor=#FF33FF;rotation=90;" vertex="1" parent="1">
+                    <mxGeometry x="796.63" y="233.13" width="309.75" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;fontSize=11;strokeColor=#FF33FF;" vertex="1" parent="1">
+                    <mxGeometry x="951" y="386.5" width="14" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;fontSize=11;strokeColor=#FF33FF;" vertex="1" parent="1">
+                    <mxGeometry x="951" y="233" width="14" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="固定費ページ" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=11;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;swimlaneFillColor=#B3B3B3;" vertex="1" parent="1">
+                    <mxGeometry x="592" y="771" width="160" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="- 固定費新規投稿遷移ボタン&#10;- 固定費投稿詳細ボタン&#10;- 固定費投稿編集ボタン" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=11;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="73">
+                    <mxGeometry y="30" width="160" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="銀行詳細" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=11;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;swimlaneFillColor=#B3B3B3;" vertex="1" parent="1">
+                    <mxGeometry x="778" y="467" width="160" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="- card_name&#10;- user" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="75">
+                    <mxGeometry y="30" width="160" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="銀行新規作成" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=11;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;swimlaneFillColor=#B3B3B3;" vertex="1" parent="1">
+                    <mxGeometry x="778" y="619" width="160" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="- card_name&#10;- user" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="77">
+                    <mxGeometry y="30" width="160" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;fontSize=11;strokeColor=#FF33FF;" vertex="1" parent="1">
+                    <mxGeometry x="751" y="532" width="27" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="銀行取引新規投稿" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=11;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;swimlaneFillColor=#B3B3B3;" vertex="1" parent="1">
+                    <mxGeometry x="965" y="467" width="160" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="- card_name&#10;- user" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="80">
+                    <mxGeometry y="30" width="160" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;fontSize=11;strokeColor=#FF33FF;" vertex="1" parent="1">
+                    <mxGeometry x="938" y="532" width="27" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;fontSize=11;strokeColor=#FF33FF;rotation=90;" vertex="1" parent="1">
+                    <mxGeometry x="685.8" y="612.95" width="157.38" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;fontSize=11;strokeColor=#FF33FF;" vertex="1" parent="1">
+                    <mxGeometry x="764" y="689.13" width="14" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="銀行取引投稿詳細" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=11;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;swimlaneFillColor=#B3B3B3;" vertex="1" parent="1">
+                    <mxGeometry x="965" y="619" width="160" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="- card_name&#10;- user" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="85">
+                    <mxGeometry y="30" width="160" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="銀行取引投稿編集" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=11;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;swimlaneFillColor=#B3B3B3;" vertex="1" parent="1">
+                    <mxGeometry x="965" y="771" width="160" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="- card_name&#10;- user" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="87">
+                    <mxGeometry y="30" width="160" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;fontSize=11;strokeColor=#FF33FF;rotation=90;" vertex="1" parent="1">
+                    <mxGeometry x="796.63" y="689.13" width="309.75" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;fontSize=11;strokeColor=#FF33FF;" vertex="1" parent="1">
+                    <mxGeometry x="951" y="842.5" width="14" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;fontSize=11;strokeColor=#FF33FF;" vertex="1" parent="1">
+                    <mxGeometry x="951" y="689" width="14" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="固定費新規投稿" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=11;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;swimlaneFillColor=#B3B3B3;" vertex="1" parent="1">
+                    <mxGeometry x="778" y="771" width="160" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" value="- card_name&#10;- user" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="102">
+                    <mxGeometry y="30" width="160" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;fontSize=11;strokeColor=#FF33FF;" vertex="1" parent="1">
+                    <mxGeometry x="751" y="836" width="27" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" value="固定費投稿詳細" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=11;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;swimlaneFillColor=#B3B3B3;" vertex="1" parent="1">
+                    <mxGeometry x="778" y="923" width="160" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" value="- card_name&#10;- user" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="105">
+                    <mxGeometry y="30" width="160" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" value="固定費投稿編集" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=11;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;swimlaneFillColor=#B3B3B3;" vertex="1" parent="1">
+                    <mxGeometry x="778" y="1075" width="160" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" value="- card_name&#10;- user" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="107">
+                    <mxGeometry y="30" width="160" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;fontSize=11;strokeColor=#FF33FF;rotation=90;" vertex="1" parent="1">
+                    <mxGeometry x="609.63" y="993.13" width="309.75" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="110" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;fontSize=11;strokeColor=#FF33FF;" vertex="1" parent="1">
+                    <mxGeometry x="764" y="1146.5" width="14" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="111" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;fontSize=11;strokeColor=#FF33FF;" vertex="1" parent="1">
+                    <mxGeometry x="764" y="993" width="14" height="10" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
