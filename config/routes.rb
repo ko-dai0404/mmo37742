@@ -4,5 +4,5 @@ Rails.application.routes.draw do
   get 'credit_cards/index'
   root to: "mainmenus#index" 
   resources :mainmenus, only:[:index]
-  resources :credit_cards, only:[:index, :new, :create]
+  resources :credit_cards, only:[:index, :new, :create, :destroy]
 end

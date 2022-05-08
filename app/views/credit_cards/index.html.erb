@@ -1,14 +1,21 @@
 <%= render "shared/header" %>
-<header class='creditcard-page-header'>
-  <div class='creditcard-page-menu'>
-    <%= link_to "新規作成", new_credit_card_path, class:"credit-list" %>
+<div class="creditcard-page">
+  <div class="creditcards-list">
+    <div class='creditcard-page-menu'>
+      <%= link_to "新規作成", new_credit_card_path, class:"credit-new" %>
+    </div>
+      <ul class='credits'>
+        <% @credit_cards.each do |credit_card|%>
+          <div>
+            <li><%= credit_card.card_name %>
+            <span><%= image_tag 'arrow_top.png' %></span>
+            <%= link_to '削除', credit_card_path(credit_card.id), method: :delete %>
+            </li>
+          </div>
+        <% end %>
+      </ul>
   </div>
-</header>
-<div class="creditcards-list">
-  <ul class='credits'>
-    <% @credit_cards.each do |credit_card|%>
-      <li><%= credit_card.card_name %></li>
-    <% end %>
-  </ul>
+  <div class="credit-page">
+  </div>
 </div>
 <%= render "shared/footer" %>
