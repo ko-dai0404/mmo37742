@@ -4,11 +4,11 @@
 
 # URL: https://mmo37742.herokuapp.com/
 
-# テスト用アカウント: email: ko-dai@gmail.com, password: aaa111
+# テスト用アカウント: Basic認証( ユーザー名: admin, パスワード: 2222 ), アプリアカウント( email: ko-dai@gmail.com, password: aaa111 )
 
 # 利用方法: 未
 
-# アプリを作成した背景:・普段クレジットカードでの支払いが多く、今月どれだけクレジットカードを使用しているか、リアルタイムで把握できるアプリが欲しかった
+# アプリを作成した背景:・普段クレジットカードでの支払いが多く、月々どれだけクレジットカードを使用しているか、リアルタイムで把握できるアプリが欲しかった
 
 # 洗い出した要件: https://docs.google.com/spreadsheets/d/1CpKircdElOEirHI4FTwU378HqCbaoHye-Hd3su4MgRU/edit#gid=982722306
 
