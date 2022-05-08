@@ -2,9 +2,9 @@
 
 # アプリケーション概要: お金の管理できる
 
-# URL: 未
+# URL: https://mmo37742.herokuapp.com/
 
-# テスト用アカウント: 未
+# テスト用アカウント: email: ko-dai@gmail.com, password: aaa111
 
 # 利用方法: 未
 
