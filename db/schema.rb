@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_04_29_070837) do
+ActiveRecord::Schema.define(version: 2022_05_09_045047) do
 
   create_table "credit_cards", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "card_name", null: false
@@ -18,6 +18,19 @@ ActiveRecord::Schema.define(version: 2022_04_29_070837) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["user_id"], name: "index_credit_cards_on_user_id"
+  end
+
+  create_table "credits", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+    t.integer "credit_amount", null: false
+    t.integer "cost_category_id", null: false
+    t.string "content", null: false
+    t.date "credit_date", null: false
+    t.bigint "user_id", null: false
+    t.bigint "credit_card_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["credit_card_id"], name: "index_credits_on_credit_card_id"
+    t.index ["user_id"], name: "index_credits_on_user_id"
   end
 
   create_table "users", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
@@ -34,4 +47,6 @@ ActiveRecord::Schema.define(version: 2022_04_29_070837) do
   end
 
   add_foreign_key "credit_cards", "users"
+  add_foreign_key "credits", "credit_cards"
+  add_foreign_key "credits", "users"
 end
